@@ -1,0 +1,12 @@
+.borde_puntos {
+	border: 2px dotted blue;
+	width: 60%;
+}
+
+.borde_ancho {
+	width: 300px;
+	margin: auto;
+	padding: 5%;
+	background-color: lightgoldenrodyellow;
+	border: 2px solid green;
+}
