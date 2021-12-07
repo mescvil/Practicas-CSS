@@ -1,0 +1,32 @@
+/* Estilos de las listas */
+ol {
+	list-style-type: upper-roman;
+}
+ul {
+	list-style-image: url(../imagenes/catarina.png);
+}
+/**/
+body {
+	background-image: url(../imagenes/fondo.jpg);
+	background-repeat: no-repeat;
+}
+/* Estilos de los enlaces */
+a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: darkred;
+}
+a:link {
+	background-color: aquamarine;
+}
+a:visited {
+   background-color: hotpink;
+}
+a:hover {
+	background-color: yellow;
+}
+a:active {
+	border-color: darkred;
+	border-width: 2px;
+	border-style: solid;
+}

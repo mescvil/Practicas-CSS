@@ -47,6 +47,6 @@ table {
 	width: 100%;
 	border: 1px solid black;
 }
-td {
+.borde_tabla {
 	border: 1px solid black;
 }

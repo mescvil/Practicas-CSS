@@ -1,0 +1,72 @@
+/* Pregunta 1 */
+table {
+	width: 100%;
+	height: 100px;
+}
+table,
+td,
+th {
+	border-width: 1px;
+	border-style: solid;
+	border-color: black;
+}
+
+td[colspan="2"],
+td[rowspan="2"] {
+	background-color: lightgray;
+}
+
+td[colspan="3"],
+td[rowspan="3"] {
+	background-color: lightyellow;
+}
+
+td[colspan="4"],
+td[rowspan="4"] {
+	background-color: cyan;
+}
+
+/* Pregunta 2 */
+li#pregunta1,
+li#pregunta2,
+li#pregunta3,
+li#pregunta4,
+li#pregunta5,
+li#pregunta6 {
+	color: blue;
+	font-size: small;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+	list-style: square;
+}
+
+/* Pregunta 3 */
+.negrita {
+	font-weight: bold;
+}
+
+li#pregunta3 span.negrita {
+	background-color: yellow;
+}
+
+/* Pregunta 4 */
+p.comentario {
+	font-style: italic;
+
+	border-width: 2px;
+	border-style: dotted;
+	border-color: green;
+
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+/* Pregunta 5 */
+p + p{
+    text-decoration: underline;
+}
+
+/* Pregunta 6 */
+li > a {
+    background-color: cyan;
+}

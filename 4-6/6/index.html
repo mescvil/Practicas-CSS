@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" type="text/css" href="css/styles.css" />
+		<title>Ejercicio 6</title>
+	</head>
+	<body>
+		<ul>
+			<li id="pregunta1">
+				id: Pregunta 1- Las combinaciones de 4 celdas con fondo celeste, las combinaciones
+				de 3 celdas con fondo amarillo, las combinaciones de 2 celdas con fondo gris.
+			</li>
+		</ul>
+
+		<table>
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td colspan="2"></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td rowspan="4"></td>
+				<td></td>
+				<td></td>
+				<td rowspan="2"></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td rowspan="2"></td>
+				<td></td>
+				<td colspan="3"></td>
+				<td rowspan="3"></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td colspan="3"></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td colspan="4"></td>
+			</tr>
+		</table>
+
+		<p class="comentario">
+			En este caso hemos coloreado las etiquetas que tienen el atributo colspan y rowspan
+			igual a 2,3,4. En total sesis estilos.
+		</p>
+
+		<ul>
+			<li id="pregunta2">
+				id: Pregunta2 - Decora los li que corresponden a las preguntas (identificados con
+				pregunta1, pregunta2, ...) con letra Verdana y otro tipo de marcador, deja el
+				resto igual, por ejemplo los siguientes.
+			</li>
+
+			<li>Sin id - aaa</li>
+			<li>
+				Sin id - bbb,
+				<span class="negrita"
+					>aqui un texto en negrita que no establece el fondo en amarillo.</span
+				>
+			</li>
+			<li>Sin id - ccc</li>
+		</ul>
+
+		<p class="comentario">
+			Como las preguntas tienen un id, utilizaremos un estilo para li[id]
+		</p>
+
+		<ul>
+			<li id="pregunta3">
+				id: Pregunta3 - Crea un estilo que cuando aparezca un texto en negrita en la
+				pregunta (<span class="negrita">como este</span>) le ponga fondo amarillo.
+			</li>
+		</ul>
+
+		<p class="comentario">
+			Utilizaremos li[id] strong, es decir el mismo estilo que en la pregunta anterior
+			pero seguido de la palabra strong para indicar que se aplicará a las etiquetas
+			strong que estan dentro de un li que tengan id.
+		</p>
+
+		<ul>
+			<li id="pregunta4">
+				id: Pregunta4 - Crea un estilo que se aplique a los comentarios letra italica y
+				borde punteado (lo aconsejable es una clase)
+			</li>
+		</ul>
+
+		<p>Los párrafos normales como este no aparecerán dentro del recuadro</p>
+		<p>Este párrafo sigue al anterior.</p>
+
+		<ul>
+			<li id="pregunta5">
+				id: Pregunta5 - Crea un estilo subrayado para los párrafos que siguen a otro
+				párrafo.
+			</li>
+
+			<li id="pregunta6">
+				id: Pregunta6 - Pon fondo celeste a los hipervínculos que sean hijos directos de
+				un párrafo. Este <a href="#">vinculo</a> sí, pero este que está dentro de
+				<span><a href="#">una marca de cursiva no.</a></span>
+			</li>
+		</ul>
+	</body>
+</html>
