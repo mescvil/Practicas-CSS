@@ -1,0 +1,49 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	background-color: lightgray;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+h1,
+h2 {
+	color: black;
+	text-align: center;
+}
+h2 {
+	line-height: 0%;
+}
+
+#top {
+    height: 60px;
+	width: 100%;
+	background-color: white;
+	border-bottom: 2px solid black;
+    overflow-y: auto;
+}
+
+#contenido {
+	margin-top: 3%;
+	padding: 5%;
+
+	background-color: gray;
+
+	border-style: ridge;
+	border-width: 5px;
+	border-color: white;
+}
+
+p {
+	margin-top: 3%;
+	padding: 5%;
+
+	color: white;
+	text-align: center;
+
+	border-style: groove;
+	border-width: 5px;
+	border-color: white;
+}
