@@ -1,0 +1,175 @@
+body {
+	background-image: url(../imagenes/cuaderono1.gif);
+	background-repeat: repeat-y;
+
+	margin-left: 100px;
+}
+
+/* TABLA */
+table {
+	border: 1px solid black;
+	border-collapse: collapse;
+
+	margin: auto;
+}
+
+th,
+td {
+	border: 1px solid black;
+}
+
+td {
+	padding-left: 15px;
+
+	height: 50px;
+	width: 100px;
+}
+
+/* PRIMER PARRAFO */
+#super-parrafo {
+	text-align: right;
+	line-height: 2em;
+	word-spacing: 10px;
+}
+
+#super-parrafo::first-line {
+	text-align: right;
+	font-variant: small-caps;
+}
+#super-parrafo::first-letter {
+	font-size: xx-large;
+}
+
+/* CAJAS */
+div {
+	background-color: lightyellow;
+
+	height: 75px;
+	width: 100px;
+	margin: 20px;
+
+	text-align: center;
+
+
+	float: left;
+}
+
+#none {
+	padding-top: 20px;
+	border: 3px none black;
+}
+
+#dotted {
+	padding-top: 35px;
+	border: 3px dotted black;
+}
+
+#dashed {
+	padding-top: 35px;
+	border: 3px dashed black;
+}
+
+#solid {
+	padding-top: 35px;
+	border: 3px solid black;
+}
+
+#double {
+	padding-top: 35px;
+	clear: left;
+	border: 5px double black;
+}
+
+#groove {
+	padding-top: 35px;
+	border: 5px groove grey;
+}
+
+#ridge {
+	padding-top: 35px;
+	border: 5px ridge grey;
+}
+
+#inset {
+	padding-top: 35px;
+	border: 5px inset grey;
+}
+
+#outset {
+	padding-top: 35px;
+	border: 5px outset grey;
+}
+
+/* CRUZ */
+#verde_x{
+	clear: both;
+
+	background-color: green;
+
+	width: 100px;
+	height: 20px;
+
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+
+}
+
+#verde_y{
+	clear: both;
+
+	background-color: green;
+
+	width: 20px;
+	height: 100px;
+
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+/* CURSORES */
+#auto {
+	cursor: auto;
+}
+#crosshair {
+	cursor: crosshair;
+}
+#pointer {
+	cursor: pointer;
+}
+#move {
+	cursor: move;
+}
+#text {
+	cursor: text;
+}
+#wait {
+	cursor: wait;
+}
+#help {
+	cursor: help;
+}
+#n-resize {
+	cursor: n-resize;
+}
+#ne-resize {
+	cursor: ne-resize;
+}
+#e-resize {
+	cursor: e-resize;
+}
+#se-resize {
+	cursor: se-resize;
+}
+#sw-resize {
+	cursor: sw-resize;
+}
+#w-resize {
+	cursor: w-resize;
+}
+#nw-resize {
+	cursor: nw-resize;
+}

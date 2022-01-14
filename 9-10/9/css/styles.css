@@ -1,0 +1,20 @@
+h1 {
+	text-align: center;
+}
+
+hr {
+	width: 80%;
+	vertical-align: auto;
+	clear: both;
+}
+
+#imagen-derecha {
+	float: right;
+}
+
+#imagen-izquierda {
+	float: left;
+    
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
