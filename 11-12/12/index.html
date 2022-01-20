@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<link rel="stylesheet" type="text/css" href="css/styles.css" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Ejercicio 12</title>
+	</head>
+	<body>
+		<p>
+			<span class="titulo">Static:</span> es el posicionamiento por defecto, según el
+			flujo normal de HTML. Por tanto, el valor static no será necesario indicarlo.
+		</p>
+		<div id="estatico">Capa con posicionamiento static</div>
+
+		<h2>Otra capa static:</h2>
+		<div id="estatico-alt">
+			Esta capa también tiene posicionamiento static aunque no se haya especificado pues
+			es valor por defecto.
+		</div>
+
+		<p>
+			<span class="titulo">Absolute:</span> es el posicionamiento según las distancias
+			especificadas a través de los atributos top, left, right y bottom.
+		</p>
+
+		<div id="absoluto-inferior">
+			Capa con posicionamiento absoluto y se verá bajo otras capas con z-index mayores
+		</div>
+		<div id="absoluto-superior">
+			Capa con posicionamiento absolute. top y left la posiciona repescto a la esquina
+			superior izquierda.
+		</div>
+		<div id="absoluto-gris">
+			Capa con posicionamiento absolute. top y left la posiciona repescto a la esquina
+			superior izquierda.
+		</div>
+
+		<p class = "margen-parrafo">
+			<span class="titulo">Relativo:</span> la coloca igual que la estática y le aplica
+			las coordenadas relativas con respecto a su posición.
+		</p>
+
+		<div id="relativo">
+			Capa con posicionamiento absolute, bottom y right me permite posicionarla repescto
+			ala esquina inferior derecha.
+		</div>
+		<p class="margen-parrafo">
+			<span class="titulo">Fixed:</span> igual que el absoluto pero la posición siempre
+			será visible aunque utilizaemos las barras de desplazamiento.
+		</p>
+
+		<div id="fijo">Fijo en la esquina inferior</div>
+	</body>
+</html>

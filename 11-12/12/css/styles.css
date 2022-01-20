@@ -1,0 +1,81 @@
+.titulo {
+	color: burlywood;
+	font-size: x-large;
+}
+
+div {
+	width: 250px;
+}
+
+.margen-parrafo{
+	margin-top: 100px;
+}
+
+#estatico {
+	position: static;
+
+	color: white;
+	background-color: black;
+}
+
+#estatico-alt {
+	color: white;
+	background-color: gray;
+}
+
+#absoluto-inferior {
+	position: absolute;
+	z-index: 1;
+
+	width: 500px;
+	height: 50px;
+
+	left: 50%;
+	margin-left: -250px;
+
+	color: grey;
+	background-color: lightgray;
+}
+
+#absoluto-superior {
+	position: absolute;
+	z-index: 10;
+
+	top: 50%;
+	left: 10%;
+
+	color: white;
+	background-color: black;
+}
+
+#absoluto-gris {
+	position: absolute;
+
+	bottom: 20%;
+	right: 5%;
+
+	color: white;
+	background-color: gray;
+}
+
+#relativo {
+	position: relative;
+
+	top: 100px;
+	left: 40px;
+
+	color: white;
+	background-color: black;
+}
+
+#fijo{
+	position: fixed;
+
+	width: 150px;
+
+	bottom: 0;
+	right: 0;
+	
+	color: black;
+	background-color: lightgreen;
+}

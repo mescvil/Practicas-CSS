@@ -50,7 +50,6 @@ div {
 
 	text-align: center;
 
-
 	float: left;
 }
 
@@ -101,7 +100,7 @@ div {
 }
 
 /* CRUZ */
-#verde_x{
+#verde_x {
 	clear: both;
 
 	background-color: green;
@@ -112,11 +111,10 @@ div {
 	position: absolute;
 	top: 50%;
 	left: 50%;
-	transform: translate(-50%,-50%);
-
+	transform: translate(-50%, -50%);
 }
 
-#verde_y{
+#verde_y {
 	clear: both;
 
 	background-color: green;
@@ -127,7 +125,7 @@ div {
 	position: absolute;
 	top: 50%;
 	left: 50%;
-	transform: translate(-50%,-50%);
+	transform: translate(-50%, -50%);
 }
 
 /* CURSORES */
