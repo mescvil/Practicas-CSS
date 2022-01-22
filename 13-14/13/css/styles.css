@@ -1,0 +1,62 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: rgb(253, 219, 189);
+}
+
+h1 {
+	color: gray;
+
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+/* CAJAS */
+div {
+	background-color: rgb(242, 208, 171);
+	border: 2px dashed rgb(201, 165, 104);
+
+	width: 190px;
+	height: 150px;
+
+	margin: 20px;
+
+	padding: 10px;
+	float: left;
+}
+
+.limpia{
+	clear: left;
+}
+
+/* PARRAFOS */
+p {
+	color: black;
+	text-align: justify;
+}
+
+p::first-letter {
+    float: left;
+	color: rgb(201, 165, 104);
+	font-size: xx-large;
+
+    margin-right: 3px;
+}
+
+/*TITULO*/
+h3 {
+	position: relative;
+
+	background-color: rgb(201, 165, 104);
+	color: lightgray;
+	font-size: large;
+
+	padding-left: 5px;
+	width: 150px;
+
+	bottom: 20px;
+	left: 20px;
+}
