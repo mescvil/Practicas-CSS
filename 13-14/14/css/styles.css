@@ -4,6 +4,7 @@
 }
 
 body {
+	font-family: Arial, Helvetica, sans-serif;
 	background-color: #d3d3d3;
 }
 
@@ -14,7 +15,7 @@ h1 {
 }
 
 div {
-	font-size: larger;
+	font-size: x-large;
 	color: black;
 
 	border-width: 3px;
@@ -29,8 +30,8 @@ div {
 	left: 50%;
 	transform: translate(-50%);
 
-	width: 400px;
-	height: 30px;
+	width: 70%;
+	height: 5%;
 
 	padding-top: 10px;
 
@@ -50,8 +51,8 @@ div {
 	top: 120px;
 	left: 30px;
 
-	width: 180px;
-	height: 100px;
+	width: 45%;
+	height: 20%;
 
 	padding-top: 10px;
 	padding-left: 5px;
@@ -69,11 +70,12 @@ div {
 	position: absolute;
 	z-index: 2;
 
-	top: 200px;
-	left: 180px;
+	top: 35%;
+	left: 50%;
+	transform: translate(-50%);
 
-	width: 200px;
-	height: 120px;
+	width: 40%;
+	height: 25%;
 
 	padding-top: 10px;
 
@@ -88,10 +90,10 @@ div {
 	z-index: 1;
 
 	top: 120px;
-	left: 290px;
+	right: 30px;
 
-	width: 190px;
-	height: 100px;
+	width: 45%;
+	height: 20%;
 
 	padding-top: 10px;
 	padding-right: 5px;
@@ -109,11 +111,11 @@ div {
 	position: absolute;
 	z-index: 1;
 
-	top: 280px;
+	top: 45%;
 	left: 30px;
 
-	width: 180px;
-	height: 100px;
+	width: 45%;
+	height: 20%;
 
 	padding-top: 10px;
 	padding-left: 5px;
@@ -122,7 +124,6 @@ div {
 	border-color: #baa7ba;
 
 	text-align: left;
-	font-size: large;
 }
 #rosa:hover {
 	z-index: 3;
@@ -132,11 +133,11 @@ div {
 	position: absolute;
 	z-index: 1;
 
-	top: 280px;
-	left: 290px;
+	top: 45%;
+	right: 30px;
 
-	width: 190px;
-	height: 100px;
+	width: 45%;
+	height: 20%;
 
 	padding-top: 10px;
 	padding-right: 5px;
@@ -145,8 +146,7 @@ div {
 	border-color: #865f5f;
 
 	text-align: right;
-    font-size: large;
 }
-#rojo:hover{
-    z-index: 3;
+#rojo:hover {
+	z-index: 3;
 }
