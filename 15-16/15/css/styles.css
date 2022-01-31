@@ -1,0 +1,125 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+#contenedor {
+	width: 100%;
+	height: 100vh;
+
+	overflow-y: hidden;
+}
+
+/* BARRA CON LAS IMAGENES */
+#contenido-lateral {
+	background-color: #d7e6f4;
+	background-image: url(../imagenes/kde_logo.png);
+	background-repeat: repeat-y;
+	background-size: contain;
+
+	float: left;
+	width: 10%;
+	height: 100vh;
+}
+
+/* CONTENIDO DE LA PAGINA */
+#contenido-principal {
+	background-color: #1c438c;
+
+	float: left;
+	width: 90%;
+	height: 100vh;
+}
+
+h1 {
+	color: white;
+	text-align: center;
+	font-size: 250%;
+
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+/* MENU */
+
+#contenido-menu {
+	background-color: #d7e6f4;
+
+	width: 95%;
+	height: 100vh;
+
+	margin: auto;
+	margin-bottom: 20px;
+
+	text-align: center;
+}
+
+.boton-menu {
+	color: #d7e6f4;
+	background-color: #1c438c;
+
+	text-decoration: none;
+	font-size: larger;
+
+	padding: 5px;
+
+	margin-top: 25px;
+	margin-left: 20px;
+	margin-bottom: 25px;
+
+	display: inline-block;
+}
+
+/* CONTENIDO SECUNDARIO */
+#contenido-secundario {
+	color: #d7e6f4;
+	background-color: #1c438c;
+
+	width: 93%;
+	height: 100vh;
+
+	padding-top: 10px;
+
+	margin: auto;
+}
+
+/* CONTENIDO SECUNDARIO */
+h3 {
+	text-align: left;
+
+	margin-left: 18px;
+	margin-bottom: 5px;
+}
+
+/* TEXTO */
+#contenido-texto {
+	background-color: #d7e6f4;
+
+	height: 100vh;
+	width: 95%;
+
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 20px;
+
+	margin: auto;
+}
+
+.texto-azul {
+	color: blue;
+	font-weight: bold;
+}
+
+p {
+	color: black;
+	text-align: justify;
+}
+
+p + p {
+	margin-top: 20px;
+}
